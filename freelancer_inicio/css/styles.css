@@ -23,11 +23,19 @@ html {
     font-size: 62.5%;
     box-sizing: border-box;
     /* Hack para Box Model */
+    scroll-snap-type: y mandatory;
+}
+
+/** Scroll Snap para una navegacion mas comoda por secciones**/
+.servicios,
+.navegacion-principal,
+.formulario {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
 }
 
 *,
-*:before,
-*:after {
+*:before,*:after {
     box-sizing: inherit;
 }
 
@@ -214,6 +222,7 @@ h3 {
 .contenido-hero .ubicacion {
     display: flex;
 }
+
 
 /*Servicios */
 @media (min-width: 768px) {
