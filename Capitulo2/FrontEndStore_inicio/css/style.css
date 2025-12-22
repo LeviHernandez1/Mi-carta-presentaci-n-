@@ -1,0 +1,27 @@
+:root {
+    --primario: #9C27B0;
+    --primarioOscuro: #89119D;
+    --secundario: #FFCE00;
+    --secundarioOscuro: rgb(233, 287,2);
+    --blanco: #fff;
+    --negro: #000;
+
+    /**https://fonts.google.com/selection/embed**/
+    --fuentePrincipal:  "Staatliches", sans-serif;
+}
+
+/** Snipet **/
+/** "https://www.paulirish.com/2012/box-sizing-border-box-ftw/" **/
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/** Globales **/
+body {
+    
+}
+
